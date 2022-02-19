@@ -112,8 +112,8 @@ import java.util.Scanner;
 public class helloworld {
   public static void main(String args[])
   {
-	 /* System.out.println("hello imran");
 	problem obj=new problem();
+	/* System.out.println("hello imran");
 	 obj.palindrom();
 	 Scanner in=new Scanner(System.in);
 	 System.out.println("choose the correct answer ");
@@ -156,17 +156,24 @@ if(ch=="a"||ch=="e"||ch=="i"||ch=="o"||ch=="u")
 	  {
 		  System.out.println(find+" "+"no its not vowl");
 	  }*/
+	obj.swap();
 	  Scanner s=new Scanner(System.in);
 	  System.out.println("enter your alphabte");
 	  String ch=s.nextLine();
-if(ch=="ae"||ch=="e"||ch=="i"||ch=="o"||ch=="u")
-	  {
-		  System.out.println("vowl");
-	  }
-	  else
-	  {
-		  System.out.println("not vowl");
-	  }
+  switch(ch)
+  {
+  case "a":System.out.println(ch+" "+"vowl");
+  break;
+  case "e":System.out.println(ch+" "+"vowl");
+  break;
+  case "i":System.out.println(ch+" "+"vowl");
+  break;
+  case "o":System.out.println(ch+" "+"vowl");
+  break;
+  case "u":System.out.println(ch+" "+"vowl");
+  break;
+  default:System.out.println(ch+" "+"not vowl");
+  }
 	  
 	  
   }
