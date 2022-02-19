@@ -1,7 +1,20 @@
 package demo;
 import java.util.Scanner;
  class problem{
-
+        public void swap()
+	 {
+		 int a=10;
+		    int b=12;
+		    System.out.println("before swap");
+		    System.out.println("a is :"+a);
+		     System.out.println("b is :"+b);
+		    a=a+b;
+		    b=a-b;
+		    a=a-b;
+		    System.out.println("after swap");
+		    System.out.println("a is :"+a);
+		     System.out.println("b is :"+b);
+	 }
 	public void fibonnaci()
 	 {
 		int a=0;//1
