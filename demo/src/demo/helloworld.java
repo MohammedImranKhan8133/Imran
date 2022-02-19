@@ -174,7 +174,7 @@ if(ch=="a"||ch=="e"||ch=="i"||ch=="o"||ch=="u")
   break;
   default:System.out.println(ch+" "+"not vowl");
   }
-	  
+	  //hello
 	  
   }
 }
