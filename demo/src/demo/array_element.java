@@ -1,5 +1,5 @@
 package demo;
-
+//prime
 import java.util.Scanner;
 class demo{
 	public void prime()
